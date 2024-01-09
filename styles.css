@@ -1,0 +1,45 @@
+/*section header*/
+header{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+
+}
+.header_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    width: 100%;
+    
+    padding: 30vh;
+
+}
+.name{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 2px solid black;
+
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    
+
+    border: 2px solid black;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    border: 2px solid black;
+    
+}
+.body p{
+    display: flex;
+    padding-right: 5vh;
+    margin-left: 5vh;
+    justify-content: space-evenly;
+    border: 2px solid black;
+}
